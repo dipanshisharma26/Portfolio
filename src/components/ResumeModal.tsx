@@ -223,26 +223,6 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => {
                   <li>Integrated a secure Razorpay payment gateway using React.js, Node.js, Express.js, and MongoDB; built APIs for order creation, payment verification, and webhook handling for a smooth online payment flow.</li>
                 </ul>
               </div>
-
-              <div>
-                <div className="flex justify-between items-start">
-                  <h4 className="font-bold text-white text-base">Stock Market Price Prediction Model</h4>
-                  <span className="text-xs text-purple-300 font-semibold bg-purple-500/10 px-2 py-0.5 rounded">Python, Machine Learning</span>
-                </div>
-                <ul className="list-disc list-inside mt-2 space-y-1.5 text-gray-400 pl-2">
-                  <li>Developed a model predicting stock prices for TCS, Wipro, and Adani Ports using Logistic Regression, Random Forest, and LSTM, with feature engineering and model evaluation to improve prediction accuracy.</li>
-                </ul>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-start">
-                  <h4 className="font-bold text-white text-base">Sentiment Analysis using NLP</h4>
-                  <span className="text-xs text-purple-300 font-semibold bg-purple-500/10 px-2 py-0.5 rounded">Python, NLP, ML</span>
-                </div>
-                <ul className="list-disc list-inside mt-2 space-y-1.5 text-gray-400 pl-2">
-                  <li>Built a sentiment analysis model using NLP and ML techniques (text vectorization and classification) achieving high accuracy and efficiency.</li>
-                </ul>
-              </div>
             </div>
           </div>
 

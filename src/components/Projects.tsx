@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
     {
       title: 'Supply Chain Disruption Agent',
       category: 'AI System / LangGraph',
-      date: 'APR-2K26',
+      date: 'MAY-2K26',
       tech: ['React', 'TypeScript', 'FastAPI', 'Python', 'LangGraph', 'WebSockets', 'Docker', 'SQLite', 'Tailwind CSS'],
       description: 'Developed a production-patterned, full-stack supply chain operator dashboard powered by a multi-agent LangGraph orchestration backend. The system dynamically monitors e-commerce order logs, classifies delivery risks utilizing LLM integrations, and features a state-serialized Human-in-the-Loop approval mechanism powered by SQLite checkpointers. Integrated live bi-directional WebSocket streams to update an interactive React graph visualizer, and containerized the end-to-end stack using Docker Compose for automated seeding and deployments.',
       github: 'https://github.com/dipanshisharma26/Supply-Chain-Agent',
@@ -47,16 +47,6 @@ const Projects: React.FC = () => {
       tech: ['TensorFlow', 'Keras', 'OpenCV', 'Python', 'Streamlit', 'Gemini API'],
       description: 'Built a hybrid computer vision system and translator bridging tactile Braille and digital text. Integrates a custom 5-block CNN with Squeeze-and-Excitation attention and Hough Circle detection for OCR. Features real-time webcam text capture with Gemini-powered OCR auto-correction, an agentic document assistant for interactive chat, and Hindi Bharati Braille translation.',
       github: 'https://github.com/dipanshisharma26/Visionary',
-      live: '#'
-    },
-    {
-      title: 'Sentiment Analysis using NLP',
-      category: 'Natural Language Processing',
-      date: 'AUG-2K25',
-      tech: ['Python', 'NLP', 'NLTK', 'TF-IDF', 'GloVe', 'SVM'],
-      description: 'Created a text classification classifier modeling sentiments. Benchmarked multiple text representation models (BoW, Word2Vec, GloVe, FastText) and tuned Decision Tree, Naive Bayes, and SVM architectures to achieve maximum testing accuracy.',
-      github: 'https://github.com/dipanshisharma26/sentimental_analysis',
-      live: '#'
     }
   ];
 
